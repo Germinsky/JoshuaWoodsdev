@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <%= stylesheet_link_tag "https://unpkg.com/unnamed" %>
+        <%= stylesheet_link_tag "sitesheet1" %>
+        <title><%= current_page.data.title || "Middleman" %></title>
+        <%= javascript_include_tag "site" %>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+     <div class="flex-container" id="containername" > 
+        <div id="titlename1" >
+            <h2>Joshua Woods</h2>
+        </div></div>
+        <%= partial 'partials/rednavbar'%>
+        <div class=" blockspace"></div>
+       
+        <div class=" blockspace"></div>
+<%= yield %>
+        
+    </body>
+</html>

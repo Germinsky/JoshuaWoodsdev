@@ -1,0 +1,132 @@
+
+body {
+    background-color: white;
+}
+
+#ok {
+    font-size: 30vh;
+}
+#intro {
+    background-color: blue;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+ul li a {
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #262626;
+    text-transform: capitalize;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s;
+}
+a:hover {
+    color: white;
+}
+ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    transform: scaleY(0);
+    transition: all 0.5s;
+    transform-origin: top;
+}
+a:hover span {
+    transform: scaleY(1);
+}
+span:nth-child(2) {
+    left: 25%;
+    transition-delay: 0.15s;
+}
+span:nth-child(3) {
+    left: 50%;
+    transition-delay: 0.3s;
+}
+span:nth-child(4) {
+    left: 75%;
+    transition-delay: 0.45s;
+}
+
+.small-container {
+    background-color: white;
+    height: 100px;
+}
+
+#thetitle {
+    font-size: 10vh;
+    background-color: blue;
+    color: white;
+}
+#themiddle {
+    background-color: white;
+}
+
+#footerbar1 {
+    background-color: blue;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blockspace {
+    height: 60px;
+}
+#titlename {
+    font-size: 3vh;
+}
+#titlename1 {
+    font-size: 4em;
+    padding-left: 40px;
+}
+
+#containername {
+    color: white;
+    background-image: url("../images/disk.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    background-position: center;
+}
+
+p {
+    font-family: 'Roboto Mono';
+}
+
+#consolepic{
+  height: 500px;
+}
+
+.thetitle {
+    text-align: center;
+}
+.flex-container {
+    height: 600px;
+
+}
+
+#email {
+    padding-left: 2px;
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+#containernameart {
+    color: black;
+    background-image: url("../images/m.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    color: white;
+}
